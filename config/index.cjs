@@ -6,6 +6,8 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  // 使用【pushDeer】请填写 push-deer
+  USE_PASSAGE: 'push-deer',
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wxfc45aea21161bd92',
@@ -21,9 +23,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oO6edvkjLJr8q7hJ-Ors4bp_u5bw',
+      id: 'PDU35988T5tTL0YY60K4N3I25pGX0UcMod3nENHvL',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ewxzETRhEYGqQEGRrGlOm7zKzSzqwn_Cl05w8YzwF0E',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '02-20',
       festivals: [
